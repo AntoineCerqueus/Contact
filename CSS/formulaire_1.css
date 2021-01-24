@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(../IMG/formulaire.png); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: black;
+}
+
+h2 {
+    margin-top: 10vh;
+    font-size: 1.9em;
+}
+
+.mc-field-group, .clear{
+    padding-bottom: 3vh;
+}
+
+.newsletterBlock {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin: 15vh 20vh 0 0;
+}
+
+#mc_embed_signup{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+}
+
+.clear{
+    text-align: center;
+}
+
+#submit {
+    background-color: #000000;
+    color: #ffffff;
+    height: 30px;
+    width: 150px;
+    border-radius: 18px;
+    transition-property: background-color; 
+	transition-duration: 250ms; 
+	transition-timing-function: ease-in-out;
+}
+
+#submit:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.label{
+    display: none;
+
+}
+
